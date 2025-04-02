@@ -10,7 +10,7 @@ router.post("/createuser", [
     body('email').isEmail(),
     body('name').isLength({ min: 4 }),
     body('password', 'Invalid Password').isLength({ min: 5 })]
-    , async (req, res) => {0
+    , async (req, res) => {
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
             return res.status(400).json({ errors: errors.array() });

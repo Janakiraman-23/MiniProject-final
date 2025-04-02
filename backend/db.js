@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 mongoose.set('strictQuery', true);
-const mongoURI = "mongodb+srv://singhprashantsuresh:mern123@cluster0.o0muy89.mongodb.net/FoodWeb?retryWrites=true&w=majority&appName=Cluster0"
+const mongoURI = "mongodb+srv://food1:12345@food.vqpubcx.mongodb.net/?retryWrites=true&w=majority&appName=food"
 const mongoDB = async () => {
     await mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true }, async (err, result) => {
         if (err) console.log("---", err)
