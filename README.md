@@ -11,8 +11,7 @@ Full-stack web application built with the **MERN stack** (MongoDB, Express, Reac
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (Atlas)
 - **Authentication**:  JWT
-- **Payment Gateway**: Razorpay
-- 
+- **Payment Gateway**: Razorpay         
 ## How to Run Locally
 1. Clone the repository:
    ```bash
